@@ -37,7 +37,7 @@ Los métodos propuestos para el registro de usuarios y obtención de token para 
 
 **REGISTRO DE USUARIOS** 
 
-      Ruta:  http://54.191.152.142:3000/apiv1/users
+      Ruta:  http://54.203.3.34:3000/apiv1/users
       Tipo:  POST
       Formato: x-www.form-urlencoded
       Incluimos en el BODY los parámetros:
@@ -47,7 +47,7 @@ Los métodos propuestos para el registro de usuarios y obtención de token para 
     
 **AUTENTICACIÓN** (para obtener token con que hacer consultas de articulos)
 
-      Ruta:  http://54.191.152.142:3000/apiv1/users/login
+      Ruta:  http://54.203.3.34:3000/apiv1/users/login
       Tipo:  POST
       Incluimos en el BODY los parámetros:
          - user
@@ -97,5 +97,3 @@ CLUSTER
 -----------------------------------------------
 
 El api inclye también la funcionalidad de cluster mediante la cual arranca tantos hilos de programa, llamados clones, como CPUs tenga el servidor donde se instale el API aquí propuesto. Así aprovechamos al máximo los recursos del servidor para los momentos de máxima demanda de peticiones.
-
-
