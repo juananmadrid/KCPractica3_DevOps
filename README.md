@@ -25,6 +25,16 @@ DESCRIPCIÓN DE LA API "NODEPOP"
 
 El acceso a la Api está restringido a usuarios registrados. La Api incluye un método para registrarse. Una vez registrados, hacemos login con ese usuario y password para obtener el Token, el cual incluiremos en todas nuestras peticiones para la consulta de datos de artículos. 
 
+Los ficheros estáticos son tratados por Nginx, como puede verse en las cabeceras personalizadas devueltas por Nginx en las peticiones de estáticos, que incluyen el nombre de la Api y del desarrollador. A continuación se muestran: 
+
+	X-Custom-Header:Nodepop
+	X-Owner:juananmadrid
+	
+Puede verse, por ejemplo, en los ficheros estáticos de:
+
+  	http://ec2-54-203-3-34.us-west-2.compute.amazonaws.com/
+
+
 A continuación, se describen los métodos que proporciona la Api. 
 
 
