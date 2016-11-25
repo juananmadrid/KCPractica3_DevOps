@@ -27,8 +27,8 @@ El acceso a la Api está restringido a usuarios registrados. La Api incluye un m
 
 Los ficheros estáticos son tratados por Nginx, como puede verse en las cabeceras personalizadas devueltas por Nginx en las peticiones de estáticos, que incluyen el nombre de la Api y del desarrollador. A continuación se muestran: 
 
-	X-Custom-Header:Nodepop
-	X-Owner:juananmadrid
+	X-Custom-Header:	Nodepop
+	X-Owner:			juananmadrid
 	
 Puede verse, por ejemplo, en los ficheros estáticos de:
 
